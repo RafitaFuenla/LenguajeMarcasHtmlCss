@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="icon" href="assets/img/logo.png" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Gallumbos Ciruelo</title>
+  </head>
+  <body>
+    <!-- BARRA NAVEGACION -->
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#coleccion">Colección</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+      </ul>
+    </nav>
+
+    <!-- MAIN -->
+
+    <main>
+      <h1>Gallumbos Ciruelo</h1>
+      <h2>Sujeta lo importante. Presume de lo demás.</h2>
+      <div class="portada">
+        <div class="columna1">
+          <img
+            class="imgPortada"
+            src="./assets/img/Gallumbos Ciruelo.png"
+            alt="Gallumbos Ciruelo"
+          />
+        </div>
+        <div class="columna2">
+          <section class="eslogan">
+            <p>
+              <em>En Gallumbos Ciruelo </em>creemos que los calzoncillos no son
+              solo ropa interior: <em>son declaración de intenciones</em>.
+              Diseñados para hombres seguros, con carácter y cero miedo a
+              destacar.
+            </p>
+            <p>
+              Nuestros tejidos abrazan, nuestros cortes seducen y nuestros
+              diseños provocan con elegancia. No prometemos milagros… pero
+              garantizamos que alguien querrá descubrir qué llevas puesto.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- CATALOGO -->
+      <div>
+        <h2>Nuestros productor principales:</h2>
+        <div class="catalogoProductos">
+          <div>
+            <img src="./assets/img/Calzoncillos1.png" alt="Calzoncillo rojo" />
+            <h3>Boxer Clásico Premium</h3>
+            <p>
+              Algodón Pimera calidad 95%, suave como la seda, cintura elástica
+              sin marcas. Ideal para un uso diario con absorción superior.
+            </p>
+            <p class="precio"><strong>Precio: </strong>28€</p>
+          </div>
+          <div>
+            <img src="./assets/img/Calzoncillos2.png" alt="Calzoncillo negro" />
+            <h3>Boxer Microfibra Bold</h3>
+            <p>
+              Microfibra ligera, secado rápido, muy ergonómicos, diseños
+              atrevidos, para noches memorables.
+            </p>
+            <p class="precio"><strong>Precio: </strong>30€</p>
+          </div>
+          <div>
+            <img src="./assets/img/Calzoncillos3.png" alt="Calzoncillo azul" />
+            <h3>Boxer Atlétic Mesh</h3>
+            <p>
+              Tela transpirable con malla en zonas clave, soporte anatómico.
+              Perfecto para el deporte sin rozaduras.
+            </p>
+            <p class="precio"><strong>Precio: </strong>20€</p>
+          </div>
+          <div>
+            <img
+              src="./assets/img/Calzoncillos4.png"
+              alt="Calzoncillo negro rayas"
+            />
+            <h3>Boxer Modal Seductor</h3>
+            <p>
+              Modelo elástico 96% ultra-suave, corte ajustado que resalta,
+              colores intensos que duran lavados.
+            </p>
+            <p class="precio"><strong>Precio: </strong>22€</p>
+          </div>
+          <div>
+            <img src="./assets/img/Calzoncillos5.png" alt="Calzoncillo verde" />
+            <h3>Boxer Bamboo Eco</h3>
+            <p>
+              Bambú orgánico antibacteriano, tacto fresco, ecológico e
+              hipoalergénico, para pieles sensibles.
+            </p>
+            <p class="precio"><strong>Precio: </strong>10€</p>
+          </div>
+          <div>
+            <img src="./assets/img/Calzoncillos6.png" alt="Calzoncillo gris" />
+            <h3>Boxer Cachemira Luxe</h3>
+            <p>
+              Mezcla cachemira-algodón premium, calidez envolvente, lujo sutil,
+              para ocasiones especiales.
+            </p>
+            <p class="precio"><strong>Precio: </strong>60€</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECCION DESTACADA -->
+      <article>
+        <div class="cualidades">
+          <h3>Ventajas que no pasan desapercibidas:</h3>
+          <ul>
+            <li>
+              <strong>Algodón 100% natural: </strong>suave como una caricia
+              prohibida.
+            </li>
+            <li>
+              <strong>Diseño ergonómico: </strong>moldea donde cuenta de verdad.
+            </li>
+            <li>
+              <strong>Fabricado en España: </strong>pasión ibérica en cada hilo.
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- FORMULaRIO -->
+
+      <div class="formularioDiv">
+        <form class="formulario">
+          <div class="nombre">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" placeholder="Nombre completo" />
+          </div>
+
+          <div class="email">
+            <label for="correo">Correo electrónico:</label>
+            <input
+              type="email"
+              name="correo"
+              placeholder="Correo electrónico"
+            />
+          </div>
+
+          <div class="tipoCalzoncillo">
+            <select name="tipoCalzoncillos">
+              <option value="">¿Que calzoncillo te gista mas?</option>
+              <option value="calisco">Boxer Clásico Premium</option>
+              <option value="microfibra">Boxer Microfibra Bold</option>
+              <option value="athletic">Boxer Atlétic</option>
+              <option value="seductor">Boxer Modal Seductor</option>
+              <option value="eco">Boxer Bamboo Eco</option>
+              <option value="luxe">Boxer Cachemira Luxe</option>
+            </select>
+          </div>
+
+          <div class="areaMejorarWeb">
+            <textarea
+              rows="2"
+              cols="40"
+              placeholder="Que mejorarias de la web"
+            ></textarea>
+          </div>
+
+          <div class="enviar">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- FooTER -->
+
+    <footer class="footer">
+      <p>&copy; 2025 Gallumbos Ciruelo - Todos los derechos reservados</p>
+      <address>
+       
+         
+          <a href="mailto:calzoncillos@gallumbosciruelo.es">Email</a>
+            
+        /
+           <a href="tel:+34123456789">Teléfono </a>
+          / 
+          <a
+            href="https://wa.me/34123456789?text=Hola,%20quiero%20información%20sobre%20los%20calzoncillos"
+            target="_blank"
+          >
+            WhatsApp
+          </a>
+        
+      </address>
+    </footer>
+  </body>
+</html>
